@@ -1,8 +1,8 @@
-# import streamlit as st
-# from auth import authenticate
-# from certificate import generate_certificate 
-# from database import store_certificate_data, get_certificate_by_id
-# from database import create_table
+import streamlit as st
+from auth import authenticate
+from certificate import generate_certificate 
+from database import store_certificate_data, get_certificate_by_id
+from database import create_table
 
 # # Initialize database table
 # create_table()
@@ -68,8 +68,8 @@
 #         st.error("Invalid Certificate ID.")
 
 
-import streamlit as st
-from certificate import generate_certificate, store_certificate_data
+# import streamlit as st
+# from certificate import generate_certificate, store_certificate_data
 
 st.title("Internship Certificate Generator")
 
