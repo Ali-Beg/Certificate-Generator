@@ -1,0 +1,4 @@
+streamlit
+uuid
+python-docx
+sqlite3
